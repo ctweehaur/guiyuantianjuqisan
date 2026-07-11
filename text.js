@@ -26,7 +26,7 @@ const poemData = [
 
     // 第四句：带月荷锄归。
     { text: "带月", py: "dài yuè", zh: "披着月光。形容早出晚归，劳作至夜晚。", en: "with the moon (working till night)", exam: true },
-    { text: "荷", py: "hè", zh: "扛着、背着。读"hè"，意为肩负。", en: "to carry on the shoulder", exam: true },
+    { text: "荷", py: "hè", zh: "扛着、背着。读“hè”，意为肩负。", en: "to carry on the shoulder", exam: true },
     { text: "锄", py: "chú", zh: "锄头，农具。", en: "hoe" },
     { text: "归", py: "guī", zh: "回家、归来。", en: "to return home" },
     { text: "。", punc: true },
