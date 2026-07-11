@@ -8,7 +8,7 @@ const analysisData = [
         headerPy: "chuàng zuò bèi jǐng",
         en: "Historical Context",
         textZh: "陶渊明 是 东晋 时期 的 伟大 诗人 ， 中国 第一位 田园 诗人 。 他 早年 曾 多次 出仕 做官 ， 但 因 不满 官场 的 黑暗 与 腐败 ， 41岁 时 毅然 辞去 彭泽 县令 ， 归隐 田园 。 这首 《 归园田居 （ 其三 ） 》 便是 他 归隐 初期 所作 ， 真实 记录 了 他 躬耕 劳作 的 日常生活 ， 表达 了 他 虽 劳作 艰辛 却 乐在其中 的 旷达 心境 。",
-        textPy: "táo yuān míng shì dōng jìn shí qī de wěi dà shī rén zhōng guó dì yī wèi tián yuán shī rén tā zǎo nián céng duō cì chū shì zuò guān dàn yīn bù mǎn guān chǎng de hēi àn yǔ fǔ bài sì shí yī suì shí yì rán cí qù péng zé xiàn lìng guī yǐn tián yuán zhè shǒu guī yuán tián jū qí sān biàn shì tā guī yǐn chū qī suǒ zuò zhēn shí jì lù le tā gōng gēng láo zuò de rì cháng shēng huó biǎo dá le tā suī láo zuò jiān xīn què lè zài qí zhōng de kuàng dá xīn jìng",
+        textPy: "táo yuān míng shì dōng jìn shí qī de wěi dà shī rén zhōng guó dì yī wèi tián yuán shī rén tā zǎo nián céng duō cì chū shì zuò guān dàn yīn bù mǎn guān chǎng de hēi àn yǔ fǔ bài suì shí yì rán cí qù péng zé xiàn lìng guī yǐn tián yuán zhè shǒu guī yuán tián jū qí sān biàn shì tā guī yǐn chū qī suǒ zuò zhēn shí jì lù le tā gōng gēng láo zuò de rì cháng shēng huó biǎo dá le tā suī láo zuò jiān xīn què lè zài qí zhōng de kuàng dá xīn jìng",
         textEn: "Tao Yuanming was a great poet of the Eastern Jin Dynasty, China's first pastoral poet. He had served as an official several times in his early years, but unsatisfied with the corruption of officialdom, he resolutely resigned as Magistrate of Pengze at age 41 and retired to the countryside. This poem was written during his early reclusive years, recording his daily farming life and expressing his broad-minded spirit of finding joy amid hard labor."
     },
     {
