@@ -136,7 +136,7 @@ const quizQuestions = [
         ]
     },
     {
-{
+
         id: 4,
         text: "这首诗中，诗人用什么具体细节来表现农耕生活的艰苦？",
         py: "zhè shǒu shī zhōng shī rén yòng shén me jù tǐ xì jié lái biǎo xiàn nóng gēng shēng huó de jiān kǔ",
