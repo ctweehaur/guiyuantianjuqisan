@@ -15,7 +15,7 @@ const analysisData = [
         header: "思想 情感",
         headerPy: "sī xiǎng qíng gǎn",
         en: "Thematic Themes",
-        textZh: "这首 诗 通过 描写 诗人 躬耕 南山 、 早出晚归 、 夕露沾衣 的 劳作 情景 ， 展现 了 田园 生活 的 艰辛 。 然而 诗人 并 未 因此 抱怨 或 退缩 ， 反而 以 ' 衣沾不足惜 ， 但使愿无违 ' 作结 ， 表明 了 他 对 归隐 生活 的 坚定 信念 。 全诗 语言 朴实 自然 ， 感情 真挚 深沉 ， 体现 了 陶渊明 崇尚 自然 、 淡泊名利 的 人格 魅力 。",
+        textZh: "这首 诗 通过 描写 诗人 躬耕 南山 、 早出晚归 、 夕露沾衣 的 劳作 情景 ， 展现 了 田园 生活 的 艰辛 。 然而 诗人 并 未 因此 抱怨 或 退缩 ， 反而 以 “ 衣沾不足惜 ， 但使愿无违 ” 作结 ， 表明 了 他 对 归隐 生活 的 坚定 信念 。 全诗 语言 朴实 自然 ， 感情 真挚 深沉 ， 体现 了 陶渊明 崇尚 自然 、 淡泊名利 的 人格 魅力 。",
         textPy: "zhè shǒu shī tōng guò miáo xiě shī rén gōng gēng nán shān zǎo chū wǎn guī xī lù zhān yī de láo zuò qíng jǐng zhǎn xiàn le tián yuán shēng huó de jiān xīn rán ér shī rén bìng wèi yīn cǐ bào yuàn huò tuì suō fǎn ér yǐ yī zhān bù zú xī dàn shǐ yuàn wú wéi zuò jié biǎo míng le tā duì guī yǐn shēng huó de jiān dìng xìn niàn quán shī yǔ yán pǔ shí zì rán gǎn qíng zhēn zhì shēn chén tǐ xiàn le táo yuān míng chóng shàng zì rán dàn bó míng lì de rén gé mèi lì",
         textEn: "The poem depicts the hardships of farming life—planting at the foot of the mountain, toiling from dawn till dusk, and returning with clothes wet by dew. Yet the poet does not complain or retreat. Instead, he concludes with 'It is not worth regretting wet clothes, as long as my wish is not betrayed,' demonstrating his steadfast commitment to reclusion. The language is simple and natural, sincere and profound, reflecting Tao Yuanming's personality of championing nature and despising fame and fortune."
     }
