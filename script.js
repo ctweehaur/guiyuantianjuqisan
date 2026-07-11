@@ -1,6 +1,5 @@
 /**
  * 互动古文教学平台 - 核心交互逻辑
- * 此文件与 HTML 结构解耦，修改逻辑无需动 index.html
  */
 
 let originalQuizQuestions = [];
@@ -88,13 +87,14 @@ function toggleAnswer(btn) {
 
 function renderPoem() {
     const container = document.getElementById('dynamic-poem-container');
-    let html = '<div class="poem-paragraph" style="text-align: center !important; padding-left: 0 !important; margin: 0 auto !important; line-height: 1.8 !important;">'; 
+    let html = '<div class="poem-paragraph" style="text-align: center !important; padding-left: 0 !important; margin: 0 auto !important; line-height: 2.2 !important;">'; 
     
     poemData.forEach(w => {
         if(w.punc) {
             html += `<span class="punctuation">${w.text.trim()}</span>`;
-            if (w.text.trim() === '，' || w.text.trim() === '。' || w.text.trim() === '？') {
-                html += '</div><div class="poem-paragraph" style="text-align: center !important; padding-left: 0 !important; margin: 0 auto !important; margin-top: 4px !important; line-height: 1.8 !important;">';
+            // 遇到句号、问号、感叹号换行（逗号、顿号等不换行）
+            if (w.text.trim() === '。' || w.text.trim() === '？' || w.text.trim() === '！') {
+                html += '</div><div class="poem-paragraph" style="text-align: center !important; padding-left: 0 !important; margin: 0 auto !important; line-height: 2.2 !important;">';
             }
         } else {
             let examClass = w.exam ? ' word exam-focus' : ' word';
