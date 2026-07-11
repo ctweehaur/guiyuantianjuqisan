@@ -137,49 +137,49 @@ const quizQuestions = [
     },
     {
 {
-    id: 4,
-    text: "这首诗中，诗人用什么具体细节来表现农耕生活的艰苦？",
-    py: "zhè shǒu shī zhōng shī rén yòng shén me jù tǐ xì jié lái biǎo xiàn nóng gēng shēng huó de jiān kǔ",
-    en: "What specific details does the poet use to show the hardship of farming life?",
-    options: [
-        {
-            text: "“道狭草木长，夕露沾我衣”",
-            py: "dào xiá cǎo mù zhǎng xī lù zhān wǒ yī",
-            en: "Narrow paths with overgrown grass, dew wetting his clothes",
-            correct: true,
-            explanation: "道路狭窄、草木茂盛、夕露沾衣，这些细节生动地描绘了农耕环境的艰苦与诗人劳作至晚的辛劳。",
-            explanationPy: "dào lù xiá zhǎi cǎo mù mào shèng xī lù zhān yī zhè xiē xì jié shēng dòng dì miáo huì le nóng gēng huán jìng de jiān kǔ yǔ shī rén láo zuò zhì wǎn de xīn láo",
-            explanationEn: "Narrow paths, overgrown grass, and dew-wet clothes vividly depict the hardship of farming and late-night toil."
-        },
-        {
-            text: "“种豆南山下，草盛豆苗稀”",
-            py: "zhòng dòu nán shān xià cǎo shèng dòu miáo xī",
-            en: "Planting beans at the foot of South Mountain, with sparse seedlings",
-            correct: false,
-            explanation: "这句主要表现的是耕作效果不佳，而非劳作的艰苦。艰苦体现在辛劳的过程而非结果。",
-            explanationPy: "zhè jù zhǔ yào biǎo xiàn de shì gēng zuò xiào guǒ bù jiā ér fēi láo zuò de jiān kǔ jiān kǔ tǐ xiàn zài xīn láo de guò chéng ér fēi jié guǒ",
-            explanationEn: "This line mainly shows poor farming results, not the hardship of the labor itself."
-        },
-        {
-            text: "“晨兴理荒秽，带月荷锄归”",
-            py: "chén xīng lǐ huāng huì dài yuè hè chú guī",
-            en: "Rising at dawn and returning under the moon",
-            correct: false,
-            explanation: "这句表现的是诗人早出晚归的辛劳，也体现了辛苦。但题目问的是“具体细节”，“夕露沾衣”是更形象的细节描写。",
-            explanationPy: "zhè jù biǎo xiàn de shì shī rén zǎo chū wǎn guī de xīn láo yě tǐ xiàn le xīn kǔ dàn tí mù wèn de shì jù tǐ xì jié xī lù zhān yī shì gèng xíng xiàng de xì jié miáo xiě",
-            explanationEn: "This line shows early-to-rise and late-to-return toil, but 'dew wetting clothes' is a more concrete detail."
-        },
-        {
-            text: "“衣沾不足惜，但使愿无违”",
-            py: "yī zhān bù zú xī dàn shǐ yuàn wú wéi",
-            en: "Clothes wet but not regretting, as long as the wish is fulfilled",
-            correct: false,
-            explanation: "这句表达的是诗人对归隐初心的坚守，表现的是精神追求而非农耕的具体艰苦细节。",
-            explanationPy: "zhè jù biǎo dá de shì shī rén duì guī yǐn chū xīn de jiān shǒu biǎo xiàn de shì jīng shén zhuī qiú ér fēi nóng gēng de jù tǐ jiān kǔ xì jié",
-            explanationEn: "This line expresses the poet's commitment to his reclusive ideal, showing spiritual pursuit rather than concrete farming hardship."
-        }
-    ]
-}
+        id: 4,
+        text: "这首诗中，诗人用什么具体细节来表现农耕生活的艰苦？",
+        py: "zhè shǒu shī zhōng shī rén yòng shén me jù tǐ xì jié lái biǎo xiàn nóng gēng shēng huó de jiān kǔ",
+        en: "What specific details does the poet use to show the hardship of farming life?",
+        options: [
+            {
+                text: "“道狭草木长，夕露沾我衣”",
+                py: "dào xiá cǎo mù zhǎng xī lù zhān wǒ yī",
+                en: "Narrow paths with overgrown grass, dew wetting his clothes",
+                correct: true,
+                explanation: "道路狭窄、草木茂盛、夕露沾衣，这些细节生动地描绘了农耕环境的艰苦与诗人劳作至晚的辛劳。",
+                explanationPy: "dào lù xiá zhǎi cǎo mù mào shèng xī lù zhān yī zhè xiē xì jié shēng dòng dì miáo huì le nóng gēng huán jìng de jiān kǔ yǔ shī rén láo zuò zhì wǎn de xīn láo",
+                explanationEn: "Narrow paths, overgrown grass, and dew-wet clothes vividly depict the hardship of farming and late-night toil."
+            },
+            {
+                text: "“种豆南山下，草盛豆苗稀”",
+                py: "zhòng dòu nán shān xià cǎo shèng dòu miáo xī",
+                en: "Planting beans at the foot of South Mountain, with sparse seedlings",
+                correct: false,
+                explanation: "这句主要表现的是耕作效果不佳，而非劳作的艰苦。艰苦体现在辛劳的过程而非结果。",
+                explanationPy: "zhè jù zhǔ yào biǎo xiàn de shì gēng zuò xiào guǒ bù jiā ér fēi láo zuò de jiān kǔ jiān kǔ tǐ xiàn zài xīn láo de guò chéng ér fēi jié guǒ",
+                explanationEn: "This line mainly shows poor farming results, not the hardship of the labor itself."
+            },
+            {
+                text: "“晨兴理荒秽，带月荷锄归”",
+                py: "chén xīng lǐ huāng huì dài yuè hè chú guī",
+                en: "Rising at dawn and returning under the moon",
+                correct: false,
+                explanation: "这句表现的是诗人早出晚归的辛劳，也体现了辛苦。但题目问的是“具体细节”，“夕露沾衣”是更形象的细节描写。",
+                explanationPy: "zhè jù biǎo xiàn de shì shī rén zǎo chū wǎn guī de xīn láo yě tǐ xiàn le xīn kǔ dàn tí mù wèn de shì jù tǐ xì jié xī lù zhān yī shì gèng xíng xiàng de xì jié miáo xiě",
+                explanationEn: "This line shows early-to-rise and late-to-return toil, but 'dew wetting clothes' is a more concrete detail."
+            },
+            {
+                text: "“衣沾不足惜，但使愿无违”",
+                py: "yī zhān bù zú xī dàn shǐ yuàn wú wéi",
+                en: "Clothes wet but not regretting, as long as the wish is fulfilled",
+                correct: false,
+                explanation: "这句表达的是诗人对归隐初心的坚守，表现的是精神追求而非农耕的具体艰苦细节。",
+                explanationPy: "zhè jù biǎo dá de shì shī rén duì guī yǐn chū xīn de jiān shǒu biǎo xiàn de shì jīng shén zhuī qiú ér fēi nóng gēng de jù tǐ jiān kǔ xì jié",
+                explanationEn: "This line expresses the poet's commitment to his reclusive ideal, showing spiritual pursuit rather than concrete farming hardship."
+            }
+        ]
+    }
 ];
 
 console.log("成功加载：quiz 客观题数据包");
