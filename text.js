@@ -14,7 +14,7 @@ const poemData = [
     { text: "草", py: "cǎo", zh: "野草、杂草。", en: "weeds" },
     { text: "盛", py: "shèng", zh: "茂盛、繁盛。", en: "flourishing / overgrown", exam: true },
     { text: "豆苗", py: "dòu miáo", zh: "豆类的幼苗。", en: "bean seedlings" },
-    { text: "稀", py: "xī", zh: "稀疏、稀少。与"草盛"形成鲜明对比。", en: "sparse / thin", exam: true },
+    { text: "稀", py: "xī", zh: "稀疏、稀少。与“草盛”形成鲜明对比。", en: "sparse / thin", exam: true },
     { text: "。", punc: true },
 
     // 第三句：晨兴理荒秽，
@@ -35,7 +35,7 @@ const poemData = [
     { text: "道", py: "dào", zh: "小路、道路。", en: "path / road" },
     { text: "狭", py: "xiá", zh: "狭窄、不宽阔。", en: "narrow" },
     { text: "草木", py: "cǎo mù", zh: "杂草和树木。", en: "grass and trees" },
-    { text: "长", py: "zhǎng", zh: "生长、茂盛。读"zhǎng"。", en: "to grow / overgrown", exam: true },
+    { text: "长", py: "zhǎng", zh: "生长、茂盛。读“zhǎng”。", en: "to grow / overgrown", exam: true },
     { text: "，", punc: true },
 
     // 第六句：夕露沾我衣。
