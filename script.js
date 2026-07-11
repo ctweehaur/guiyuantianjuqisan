@@ -20,12 +20,12 @@ function alignText(zh, py) {
         if (/[0-9]/.test(c)) {
             html += `<span class="char-box"><span class="py-text" style="visibility: hidden;">&nbsp;</span><span class="punctuation" style="font-weight: 600; color: #1e293b;">${c}</span></span>`;
         }
-        // 英文字母：不配拼音，但占用字符位置（透明占位）
-        else if (/[a-zA-Z]/.test(c)) {
+        // 英文字母（含带变音符号的字母如 é, è, ê, ā, ī, ū 等）：不配拼音，透明占位
+        else if (/[a-zA-Z\u00C0-\u024F]/.test(c)) {
             html += `<span class="char-box"><span class="py-text" style="visibility: hidden;">&nbsp;</span><span class="punctuation" style="font-weight: 600; color: #1e293b;">${c}</span></span>`;
         }
-        // 标点符号（含中文括号、方括号）：不配拼音，透明占位
-        else if (/[\.\/\\\,，。？！：“”‘’《》、\-\:；—\s（）\[\]]/.test(c)) {
+        // 标点符号（含中文括号、方括号、中文引号）：不配拼音，透明占位
+        else if (/[\.\/\\\,，。？！：“”‘’《》、\-\:；—\s（）\[\]“”]/.test(c)) {
             html += `<span class="char-box"><span class="py-text" style="visibility: hidden;">&nbsp;</span><span class="punctuation">${c}</span></span>`;
         } 
         // 中文汉字：正常配拼音
@@ -52,12 +52,12 @@ function alignTextWithPrefix(prefix, zh, py) {
         if (/[0-9]/.test(c)) {
             html += `<span class="char-box"><span class="py-text" style="visibility: hidden;">&nbsp;</span><span class="punctuation" style="font-weight: 600; color: #1e293b;">${c}</span></span>`;
         }
-        // 英文字母：不配拼音，但占用字符位置（透明占位）
-        else if (/[a-zA-Z]/.test(c)) {
+        // 英文字母（含带变音符号的字母如 é, è, ê, ā, ī, ū 等）：不配拼音，透明占位
+        else if (/[a-zA-Z\u00C0-\u024F]/.test(c)) {
             html += `<span class="char-box"><span class="py-text" style="visibility: hidden;">&nbsp;</span><span class="punctuation" style="font-weight: 600; color: #1e293b;">${c}</span></span>`;
         }
-        // 标点符号（含中文括号、方括号）：不配拼音，透明占位
-        else if (/[\.\/\\\,，。？！：“”‘’《》、\-\:；—\s（）\[\]]/.test(c)) {
+        // 标点符号（含中文括号、方括号、中文引号）：不配拼音，透明占位
+        else if (/[\.\/\\\,，。？！：“”‘’《》、\-\:；—\s（）\[\]“”]/.test(c)) {
             html += `<span class="char-box"><span class="py-text" style="visibility: hidden;">&nbsp;</span><span class="punctuation">${c}</span></span>`;
         } 
         // 中文汉字：正常配拼音
